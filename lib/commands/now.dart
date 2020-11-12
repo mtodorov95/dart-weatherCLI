@@ -2,7 +2,7 @@ import 'package:weather/commands/command.dart';
 import 'package:weather/model.dart';
 
 class NowCmd extends WeatherCmd {
-  final loadingMessage = 'looking for the current weather in';
+  final loadingMessage = 'Looking for the current weather in';
 
   @override
   String get name => 'now';

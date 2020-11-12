@@ -14,6 +14,6 @@ class Weather {
 
   @override
   String toString() {
-    return 'Date: $date, Temp: ${temp.toStringAsFixed(2)}C, Min Temp: ${minTemp.toStringAsFixed(2)}C, Max Temp: ${maxTemp.toStringAsFixed(2)}C\n';
+    return 'Date: $date, Temp: ${temp.toStringAsFixed(1)} C, Min Temp: ${minTemp.toStringAsFixed(1)} C, Max Temp: ${maxTemp.toStringAsFixed(1)} C\n';
   }
 }

@@ -8,7 +8,7 @@ class WeekCmd extends WeatherCmd {
   String get name => 'week';
 
   @override
-  String get description => 'Print weather for the week in a given city';
+  String get description => 'Prints the weekly weather at the given city';
   @override
   Future<List<Weather>> getWeather(String city) async {
     return await WeatherCmd.weatherApi.getWeather(city);
